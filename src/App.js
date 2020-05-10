@@ -7,6 +7,7 @@ const MakingShapesWithSVG = lazy(() =>
 );
 
 function App() {
+  console.log("started");
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Router>
