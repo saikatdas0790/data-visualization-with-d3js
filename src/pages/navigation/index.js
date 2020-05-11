@@ -10,6 +10,9 @@ const Navigation = () => (
       <li>
         <Link to="/making-shapes-with-svg">Making shapes with SVG</Link>
       </li>
+      <li>
+        <Link to="/introduction-to-d3js">Introduction to D3.js</Link>
+      </li>
     </ul>
   </nav>
 );
